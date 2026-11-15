@@ -10,7 +10,7 @@ name="${ext#*.}"
 
 repo="$(cd "$(dirname "$0")" && pwd)"
 src="$repo/Mihon_Manga_Extensions"
-export JAVA_HOME="${JAVA_HOME:-/e/Tools/TachiyomiSetup/jdk-17}"
+export JAVA_HOME="${JAVA_HOME:-/e/Tools/Konekoyomi/TachiyomiSetup/jdk-17}"
 
 gradle="$src/src/$lang/$name/build.gradle.kts"
 code=$(sed -n 's/.*versionCode *= *\([0-9]*\).*/\1/p' "$gradle" | head -1)
