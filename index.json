@@ -2,10 +2,10 @@
   {
     "name": "Tachiyomi: Pawchive",
     "pkg": "eu.kanade.tachiyomi.extension.all.pawchive",
-    "apk": "tachiyomi-all.pawchive-v1.6.26.apk",
+    "apk": "tachiyomi-all.pawchive-v1.6.27.apk",
     "lang": "all",
-    "code": 106026,
-    "version": "1.6.26",
+    "code": 106027,
+    "version": "1.6.27",
     "nsfw": 1,
     "sources": [
       {
